@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    margin: 0;
+    font-family: 'Roboto Slab','Josefin Sans';
+}
+
+button:hover{
+    background-color: #333f4b;
+    color: white;
+    transition-duration: 400ms;
+}
+
+button:active{
+    background-color: #707f8f;
+}

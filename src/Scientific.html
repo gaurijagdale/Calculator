@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body class="">
+    <div class=" px-20 py-5 flex justify-between items-center bg-opacity-50 dark:bg-slate-900 dark:border-b-0 dark:text-white ">
+        <h1 class=" font-bold text-2xl font-Robo tracking-wider">CMath</h1>
+        <div class=" flex space-x-10 ">
+        </div>
+        <span id="modebtn" class="material-symbols-outlined cursor-pointer">
+            contrast
+        </span>
+    </div>
+    <div class=" py-10 grid grid-cols-2 dark:bg-slate-900">
+        <div class="col-span-1 flex justify-center items-center">
+            <div class=" min-h-96 w-80 bg-M bg-opacity-50 px-3 py-5 space-y-2 rounded-lg">
+                <div>
+                    <div class=" w-full">
+                        <input type="text" id="display" class="text-right w-full px-3 py-1 rounded-md">
+                    </div>
+                    <div class=" w-full">
+                        <p id="ans" class="w-full rounded-md text-white bg-[#333f4b] text-right px-3 py-1">ANS</p>
+                    </div>
+                </div>
+                <div class="grid gap-2 grid-rows-10">
+                    <div class="row-span-1 grid grid-cols-5 gap-2 ">
+                        <button class="col-span-1 bg-white rounded-md p-1">Sin</button>
+                        <button class="col-span-1 bg-white rounded-md">Cos</button>
+                        <button class="col-span-1 bg-white rounded-md">Tan</button>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-5 gap-2">
+                        <button class="col-span-1 bg-white rounded-md">Sin <sup>-1</sup></button>
+                        <button class="col-span-1 bg-white rounded-md">Cos <sup>-1</sup></button>
+                        <button class="col-span-1 bg-white rounded-md">Tan <sup>-1</sup></button>
+                        <button class="col-span-1 bg-white rounded-md">π</button>
+                        <button class="col-span-1 bg-white rounded-md">e</button>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-5 gap-2">
+                        <button class="col-span-1 bg-white rounded-md">x <sup>y</sup></button>
+                        <button class="col-span-1 bg-white rounded-md">x <sup>3</sup></button>
+                        <button class="col-span-1 bg-white rounded-md">x <sup>2</sup></button>
+                        <button class="col-span-1 bg-white rounded-md">e <sup>x</sup></button>
+                        <button class="col-span-1 bg-white rounded-md">10 <sup>x</sup></button>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-5 gap-2">
+                        <button class="col-span-1 bg-white rounded-md"> <sup>y</sup> √x</button>
+                        <button class="col-span-1 bg-white rounded-md"> <sup>3</sup>√x</button>
+                        <button class="col-span-1 bg-white rounded-md">√x</button>
+                        <button class="col-span-1 bg-white rounded-md">ln</button>
+                        <button class="col-span-1 bg-white rounded-md">log</button>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-5 gap-2">
+                        <button class="col-span-1 bg-white rounded-md">(</button>
+                        <button class="col-span-1 bg-white rounded-md"> )</button>
+                        <button class="col-span-1 bg-white rounded-md">1/x</button>
+                        <button class="col-span-1 bg-white rounded-md">%</button>
+                        <button class="col-span-1 bg-white rounded-md">n!</button>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-5 gap-2">
+                        <button class="col-span-1 bg-white rounded-md">7</button>
+                        <button class="col-span-1 bg-white rounded-md">8</button>
+                        <button class="col-span-1 bg-white rounded-md">9</button>
+                        <button class="col-span-1 bg-white rounded-md">+</button>
+                        <button class="col-span-1 bg-white rounded-md">Back</button>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-5 gap-2">
+                        <button class="col-span-1 bg-white rounded-md">4</button>
+                        <button class="col-span-1 bg-white rounded-md"> 5</button>
+                        <button class="col-span-1 bg-white rounded-md">6</button>
+                        <button class="col-span-1 bg-white rounded-md">-</button>
+                        <button class="col-span-1 bg-white rounded-md">Ans</button>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-5 gap-2">
+                        <button class="col-span-1 bg-white rounded-md">1</button>
+                        <button class="col-span-1 bg-white rounded-md"> 2</button>
+                        <button class="col-span-1 bg-white rounded-md">3</button>
+                        <button class="col-span-1 bg-white rounded-md">×</button>
+                        <button class="col-span-1 bg-white rounded-md">M+</button>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-5 gap-2">
+                        <button class="col-span-1 bg-white rounded-md">0</button>
+                        <button class="col-span-1 bg-white rounded-md"> .</button>
+                        <button class="col-span-1 bg-white rounded-md">EXP</button>
+                        <button class="col-span-1 bg-white rounded-md">÷</button>
+                        <button class="col-span-1 bg-white rounded-md">M-</button>
+                    </div>
+                    <div class="row-span-1 grid grid-cols-5 gap-2">
+                        <button class="col-span-1 bg-white rounded-md">±</button>
+                        <button class="col-span-1 bg-white rounded-md">RND</button>
+                        <button class="col-span-1 bg-white rounded-md">AC</button>
+                        <button class="col-span-1 bg-white rounded-md">=</button>
+                        <button class="col-span-1 bg-white rounded-md">MR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-span-1 pr-20 space-y-5 dark:text-white">
+            <div class="space-y-2">
+                <h1 class="font-semibold text-2xl">Scientific Calculator</h1>
+                <p>Welcome to our comprehensive scientific calculator! This calculator is designed to help you perform a
+                    variety of mathematical operations and solve complex equations with ease. Whether you're a student,
+                    professional, or just someone who loves math, this tool will be invaluable for your needs.</p>
+            </div>
+            <div class="space-y-2">
+                <h2 class="font-semibold text-2xl">Features</h2>
+                <li><b>Basic Arithmetic Operations:</b> Addition, subtraction, multiplication, and division.</li>
+                <li><b>Advanced Functions:</b> Trigonometric functions (sin, cos, tan), logarithms (log, ln),
+                    exponentials, and powers.</li>
+                <li><b>Constants:</b> Access to mathematical constants like π (Pi) and e (Euler's number).
+                </li>
+                <li><b>Memory Functions: </b>Store and recall values.
+                </li>
+                <li><b>Complex Numbers:</b> Perform calculations involving complex numbers.
+                </li>
+                <li><b>Graphing:</b> Plot graphs for various functions (if applicable).
+                </li>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
